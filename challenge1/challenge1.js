@@ -8,7 +8,7 @@ const decipher = require('./decipher.js')
  *  1. frequency analysis, frequency.analyseFrequency() or  http://www.counton.org/explorer/codebreaking/frequency-analysis.php
  *  2. guess 2 letters with the hightest frequency, solve the equation, with the help of decipher.findA()
  *  3. given a, and b, use decipher.makeCipher() to get cipher
- *  4. use decipher.decode() to get result.
+ *  4. use decipher.decode() to get result. http://crypto.interactive-maths.com/affine-cipher.html can also be useful
  */
 console.log('================================');
 console.log('Challenge 1 A');

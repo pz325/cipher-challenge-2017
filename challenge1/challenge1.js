@@ -17,9 +17,9 @@ const freqA = frequency.analyseFrequency(A);
 console.log(freqA.length);
 console.log(freqA);
 // try-error to solve a and b for the affine shift ciphers
-// const a = decipher.findA(15, 10);
+// const a = decipher.findA(9, 20);
 // const b = decipher.findB();
-// console.log(a);
+// console.log('~~~~' + a);
 const aA = 1;
 const bA = 21;
 const cipherA = decipher.makeCipher(aA, bA);
@@ -39,3 +39,20 @@ const cipherB = decipher.makeCipher(aB, bB);
 console.log(cipherB);
 const decodedB = decipher.decode(B, cipherB);
 console.log(decodedB);
+const originalB = `the shame of my esteemed and noble kinsmen gnaeus julius agricola is a story too often told in the taverns of rome for the entertainment of fools and cowards who never once left the safety of that great city
+the loss of the ix th legions standard in battle haunted him throughout his life and only his untimely death brought him relief and yet the full depth of his 
+suffering is known only to a few and even i was not taken into his confidence until after his death 
+the truth of the peril in which he placed the entire roman army was finally revealed to me in the papers he left to me in his will 
+among them i found this despatch from sextus varus legatus of the ixth legion to gaiussue tonius paullinus proconsul and governor of britannia 
+describing the defeat of the ninth atcamulodonumat the writing of this message the iceni have successfully sacked the city including the temple of claudius 
+where the procurators guard took their heroic final stand 
+we were almost encircled by the enemy force who seemed possessed of the power to know our thoughts where we were strong theyposted only holding forces where we were weak 
+they attacked in strength and when reinforcements attempted to join us they were attacked on route 
+we survivors owe our lives and our thanks to gnaeus julius agricola 
+who in a time of great emergency recognised the strategy of the insurgent forces on our left flank and commanded our retreat with moments to spare 
+due to this action the majority of our cavalry were saved along with the reserve forces 
+all other frontline troops have been slaughtered and it is with great sadness and deepest anger i have to report that the ix th legion lost it saquila to the enemy 
+if earth at if we are to save londinium and verulanium from a similar fate we must find the strength to crush this rebellion 
+if we fail then all of britannia is lost 
+this much of agricolas story is widely known but the full truth must remain hidden for now 
+and as remarked by my trusted slave and confidanttirowh at better place to hide a book than among books`

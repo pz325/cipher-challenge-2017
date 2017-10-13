@@ -18,7 +18,9 @@ const decode = (txt, cipher) => {
         }
 
         if (c in cipher) {
-            decoded = decoded.replaceAt(i, cipher[c]);
+            if (cipher[c] != '') {
+                decoded = decoded.replaceAt(i, cipher[c]);
+            }
         }
     }
 

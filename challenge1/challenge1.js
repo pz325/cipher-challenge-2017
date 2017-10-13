@@ -1,5 +1,5 @@
-const frequency = require('./frequency.js')
-const decipher = require('./decipher.js')
+const frequency = require('./frequency.js');
+const decipher = require('./decipher.js');
 
 /**
  * This is challenge 1

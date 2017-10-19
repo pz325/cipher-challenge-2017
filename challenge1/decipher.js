@@ -36,6 +36,15 @@ const findA = (x, y) => {
     }
 }
 
+const findB = (x, a, y) => {
+    // x*a+b = y mod 26
+    for (var b = 0; b < 26; b++) {
+        if ((x*a+b)%26 == y) {
+            return b;
+        }
+    }
+}
+
 const makeCipher = (a, b) => {
     cipher = {};
     for (var i=0; i < 26; i++) {
@@ -54,6 +63,7 @@ const makeCipher = (a, b) => {
 module.exports = {
     decode: decode,
     findA: findA,
+    findB: findB,
     makeCipher: makeCipher,
 };
 
